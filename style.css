@@ -4,6 +4,23 @@
     justify-content: space-between;
     padding: 30px 0px 30px 0px; 
 }
+/* Books status */
+.me-class-badge-primary-headless {
+    border-radius: 4px;
+    padding: px;
+}
+.me-class-badge-primary-status-success {
+
+    background-color: green;
+}
+.me-class-badge-primary-status-borrowed {
+
+    background-color: rgb(244, 193, 9);
+}
+.me-class-badge-primary-status-not-available {
+
+    background-color: rgb(244, 9, 9);
+}
 /* Icons table init */
 .me-class-btn-outline-secondary {
     line-height: 0px;
