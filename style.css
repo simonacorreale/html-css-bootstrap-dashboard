@@ -1,8 +1,10 @@
+/* Align items init heading */
 .me-class-align {
     display: flex;
     justify-content: space-between;
     padding: 30px 0px 30px 0px; 
 }
+/* Icons table init */
 .me-class-btn-outline-secondary {
     line-height: 0px;
     padding: 8px;
@@ -14,7 +16,7 @@
 .me-class-table td { 
     vertical-align: middle;
 }
-
+/* Dropdown init */
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -22,7 +24,6 @@
   'GRAD' 0,
   'opsz' 24
 }
-
 .me-class-dropdown-toggle::after {
     display: flex;
     border-left: .0em;
