@@ -60,3 +60,28 @@
     background-color: transparent;
     border-style: solid 1px;
 }
+
+/* Desktop nav */
+.me-class-menu-large {
+    visibility: visible;
+  }
+
+  @media (min-width: 1025px)  {
+
+    .me-class-menu-large {
+      visibility: hidden;
+    }
+
+  }
+/* Mobile nav */
+.me-class-menu-small-medium {
+    visibility: visible;
+  }
+
+  @media (min-width: 1025px)  {
+
+    .me-class-menu-small-medium {
+      visibility: hidden;
+    }
+
+  }
