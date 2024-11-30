@@ -4,6 +4,9 @@
     justify-content: space-between;
     padding: 30px 0px 30px 0px;  
 }
+.me-class-marign-element {
+  margin: 0px 16px 0px 16px;
+}
 /* menu */
 .me-class-menu {
   left: auto;
