@@ -2,8 +2,9 @@
 .me-class-align {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0px 30px 0px; 
+    padding: 30px 0px 30px 0px;  
 }
+/* menu */
 .me-class-menu {
   left: auto;
   right: 0px;
