@@ -71,3 +71,7 @@
     background-color: transparent;
     border-style: solid 1px;
 }
+/* Divider init */
+.me-class-divider {
+    color:grey;
+}
