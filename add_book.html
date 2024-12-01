@@ -80,7 +80,26 @@
                             <option value="3">Three</option>
                           </select>
                     </div>
-                    
+                    <div class="col-md-4">
+                        <label for="annoPubblicazione" class="form-label">Anno di Pubblicazione</label>
+                        <input type="text" class="form-control" id="annoPubblicazione" placeholder="Inserisci l'anno">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="isbn" class="form-label">ISBN#</label>
+                        <input type="text" class="form-control" id="isbn" placeholder="Inserisci il codice ISBN#">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="note" class="form-label">Note</label>
+                    <textarea class="form-control" id="note" rows="3" placeholder="Inserisci eventuali note sul libro"></textarea>
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="disponibileDigitale">
+                    <label class="form-check-label" for="disponibileDigitale">
+                        Disponibile anche in digitale
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
             </form>
         </div>
     </div>
