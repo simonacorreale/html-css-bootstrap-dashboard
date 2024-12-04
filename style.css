@@ -21,6 +21,10 @@
     right: 0px;
     margin-top: 10px;
 }
+.me-class-d-flex {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* Books status */
 .me-class-badge-primary-headless {
