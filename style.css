@@ -1,0 +1,124 @@
+/* Align items init heading */
+.me-class-align {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 30px 0px;
+}
+
+/* margin rules */
+.me-class-marign-element {
+    margin: 0px 16px 0px 16px;
+}
+
+.me-mt-8 {
+    margin-top: 16vh;
+    margin-bottom: 50px;
+}
+
+/* menu */
+.me-class-menu {
+    left: auto;
+    right: 0px;
+    margin-top: 10px;
+}
+.me-class-d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Books status */
+.me-class-badge-primary-headless {
+    border-radius: 4px;
+    padding: px;
+}
+
+.me-class-badge-primary-status-success {
+
+    background-color: green;
+}
+
+.me-class-badge-primary-status-borrowed {
+
+    background-color: rgb(244, 193, 9);
+}
+
+.me-class-badge-primary-status-not-available {
+
+    background-color: rgb(244, 9, 9);
+}
+
+/* Icons table init */
+.me-class-btn-outline-secondary {
+    line-height: 0px;
+    padding: 8px;
+    margin: 2px;
+}
+
+.me-class-table thead th {
+    border-top: 0px;
+}
+
+.me-class-table td {
+    vertical-align: middle;
+}
+
+/* Dropdown init */
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.me-class-dropdown-toggle::after {
+    display: flex;
+    border-left: .0em;
+    border-right: .0em;
+    border-top: .0em;
+    content: "\e5d2";
+    padding: 20px;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.me-class-btn-secondary {
+    background-color: transparent;
+    border-style: solid 1px;
+}
+
+/* Divider init */
+.me-class-divider {
+    color: grey;
+}
+
+.form-select {
+    appearance: none;
+    /* Resetta lo stile predefinito */
+    -webkit-appearance: none;
+    /* Safari e Chrome */
+    -moz-appearance: none;
+    /* Firefox */
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 6px 36px 6px 6px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-position: right 0.75rem center;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.me-class-form-text {
+    color:  #656565;
+}
+form-text {
+    margin-top: .25rem;
+    font-size: .875em;
+}
