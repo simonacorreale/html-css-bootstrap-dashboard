@@ -15,17 +15,6 @@
     margin-bottom: 50px;
 }
 
-/* menu */
-.me-class-menu {
-    left: auto;
-    right: 0px;
-    margin-top: 10px;
-}
-.me-class-d-flex {
-    display: flex;
-    justify-content: space-between;
-}
-
 /* Books status */
 .me-class-badge-primary-headless {
     border-radius: 4px;
@@ -61,16 +50,10 @@
 .me-class-table td {
     vertical-align: middle;
 }
-
-/* Dropdown init */
-.material-symbols-outlined {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 24
+.me-class-style-todo {
+    .content
 }
-
+/* Dropdown form */
 /* Divider init */
 .me-class-divider {
     color: grey;
