@@ -66,7 +66,7 @@
             <thead>
               <tr>
                 <th scope="col">Titolo</th>
-                <th scope="col">Data prestito</th>
+                <th scope="col" class="d-none d-sm-block ">Data prestito</th>
                 <th scope="col">Stato</th>
                 <th scope="col">Azioni</th>
               </tr>
@@ -75,7 +75,7 @@
 
               <tr>
                 <td>I pilastri della terra</td>
-                <td>12.03.24</td>
+                <td class="d-none d-sm-block me-class-td">12.03.24</td>
                 <td>
                   <span
                     class="badge badge-pill badge-primary me-class-badge-primary-status-success me-class-badge-primary-headless ">
@@ -98,7 +98,7 @@
 
               <tr>
                 <td>I pilastri della terra</td>
-                <td>12.03.24</td>
+                <td class="d-none d-sm-block me-class-td">12.03.24</td>
                 <td>
                   <span
                     class="badge badge-pill badge-primary me-class-badge-primary-status-success me-class-badge-primary-headless ">
@@ -121,7 +121,7 @@
 
               <tr>
                 <td>I pilastri della terra</td>
-                <td>12.03.24</td>
+                <td class="d-none d-sm-block me-class-td">12.03.24</td>
                 <td>
                   <span
                     class="badge badge-pill badge-primary me-class-badge-primary-status-success me-class-badge-primary-headless ">
@@ -144,7 +144,7 @@
 
               <tr>
                 <td>I pilastri della terra</td>
-                <td>12.03.24</td>
+                <td class="d-none d-sm-block me-class-td">12.03.24</td>
                 <td>
                   <span
                     class="badge badge-pill badge-primary me-class-badge-primary-status-success me-class-badge-primary-headless ">
@@ -167,7 +167,7 @@
 
               <tr>
                 <td>I pilastri della terra</td>
-                <td>12.03.24</td>
+                <td class="d-none d-sm-block me-class-td">12.03.24</td>
                 <td>
                   <span
                     class="badge badge-pill badge-primary me-class-badge-primary-status-success me-class-badge-primary-headless ">
@@ -190,7 +190,7 @@
 
               <tr>
                 <td>I pilastri della terra</td>
-                <td>12.03.24</td>
+                <td class="d-none d-sm-block me-class-td">12.03.24</td>
                 <td>
                   <span
                     class="badge badge-pill badge-primary me-class-badge-primary-status-success me-class-badge-primary-headless ">
@@ -213,7 +213,7 @@
 
               <tr>
                 <td>I pilastri della terra</td>
-                <td>12.03.24</td>
+                <td class="d-none d-sm-block me-class-td">12.03.24</td>
                 <td>
                   <span
                     class="badge badge-pill badge-primary me-class-badge-primary-status-success me-class-badge-primary-headless ">
@@ -236,7 +236,7 @@
 
               <tr>
                 <td>I pilastri della terra</td>
-                <td>12.03.24</td>
+                <td class="d-none d-sm-block me-class-td">12.03.24</td>
                 <td>
                   <span
                     class="badge badge-pill badge-primary me-class-badge-primary-status-success me-class-badge-primary-headless ">
@@ -259,7 +259,30 @@
 
               <tr>
                 <td>I pilastri della terra</td>
-                <td>12.03.24</td>
+                <td class="d-none d-sm-block me-class-td">12.03.24</td>
+                <td>
+                  <span
+                    class="badge badge-pill badge-primary me-class-badge-primary-status-borrowed me-class-badge-primary-headless ">
+                    Disponibile
+                  </span>
+                </td>
+                <td>
+                  <button type="button" class="btn btn-outline-secondary me-class-btn-outline-secondary">
+                    <span class="material-symbols-outlined">
+                      edit
+                    </span>
+                  </button>
+                  <button type="button" class="btn btn-outline-secondary me-class-btn-outline-secondary">
+                    <span class="material-symbols-outlined">
+                      delete
+                    </span>
+                  </button>
+                </td>
+              </tr>
+
+              <tr>
+                <td>I pilastri della terra</td>
+                <td class="d-none d-sm-block me-class-td">12.03.24</td>
                 <td>
                   <span
                     class="badge badge-pill badge-primary me-class-badge-primary-status-success me-class-badge-primary-headless ">
@@ -282,30 +305,7 @@
 
               <tr>
                 <td>I pilastri della terra</td>
-                <td>12.03.24</td>
-                <td>
-                  <span
-                    class="badge badge-pill badge-primary me-class-badge-primary-status-success me-class-badge-primary-headless ">
-                    Disponibile
-                  </span>
-                </td>
-                <td>
-                  <button type="button" class="btn btn-outline-secondary me-class-btn-outline-secondary">
-                    <span class="material-symbols-outlined">
-                      edit
-                    </span>
-                  </button>
-                  <button type="button" class="btn btn-outline-secondary me-class-btn-outline-secondary">
-                    <span class="material-symbols-outlined">
-                      delete
-                    </span>
-                  </button>
-                </td>
-              </tr>
-
-              <tr>
-                <td>I pilastri della terra</td>
-                <td>12.03.24</td>
+                <td class="d-none d-sm-block me-class-td">12.03.24</td>
                 <td>
                   <span
                     class="badge badge-pill badge-primary me-class-badge-primary-status-success me-class-badge-primary-headless ">
@@ -329,14 +329,16 @@
             </tbody>
           </table>
         </div>
-        
+
         <div class="col-lg-4 col-md-12">
           <!--to-do-->
-            <div class="me-class-title-section">
-              <h2>To Do List</h2>
-            </div>
-            <div class="me-class-style-round">
-              <div class="me-class-card-style">
+        <div class="me-class-style-wrap">
+          <div class="me-class-title-section">
+            <h2>To Do List</h2>
+          </div>
+
+            <div class="me-class-card-style">
+              <div class= "me-class-cont-card-line">
               <div class="form-check me-class-style-todo-int">
                 <input class="form-check-input me-class-imp" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">
@@ -362,15 +364,18 @@
                 </label>
               </div>
 
-              </div>
             </div>
-
+          </div>
+          
+        </div>
           <!--to-do-->
           <!--Accordion-->
           <div class="accordion mt-5" id="accordionExample">
+            <div class="me-class-style-wrap">
             <div class="me-class-title-section">
               <h2>F.A.Q.</h2>
             </div>
+            <div class="me-class-cont-card-noline">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
@@ -427,6 +432,8 @@
                 </div>
               </div>
             </div>
+          </div>
+          </div>
           </div>
           <!--Accordion-->
         </div>

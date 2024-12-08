@@ -15,14 +15,9 @@ h2 {
     margin: 0;
 }
 
-.me-class-title-section {
-    border-radius: 8px 8px 0px 0px;
-    border: 1px solid #B3B1B1;
-    background: #F7F7F7;
-    justify-content: flex;
-    align-items: center;
-    padding: 30px 10px 30px 10px;
-    
+.me-class-td {
+    height: 67px;
+    padding: 20px !important;
 }
 
 /* margin rules */
@@ -71,31 +66,46 @@ h2 {
     vertical-align: middle;
 }
 
-.me-class-style-todo {
-    padding: 10px;
-    border: solid 2px;
-    border-radius: 6px;
-}
+/* accordion + todo */
+
+
 
 .form-check .form-check-input {
 margin: 8px;
 padding: 8px;
 }
-.me-class-style-round {
-    padding: 0px;
-    border: 1px solid #B3B1B1;
-    border-radius: 0px 0px 8px 8px;
-}
-.me-class-card-style{
-    border: 1px solid #B3B1B1;
-    margin: 10px;
-    border-radius: 4px;
-}
 
+.me-class-title-section {
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: 1px solid #dee2e6;
+    background: #F7F7F7;
+    justify-content: flex;
+    align-items: center;
+    padding: 30px 10px 30px 10px;
+    
+}
+.me-class-style-wrap {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+
+}
+.me-class-cont-card-line{
+    border: 1px solid #dee2e6;
+    margin: 20px;
+    border-radius: 8px;
+
+}
+.me-class-cont-card-noline{
+    margin: 20px;
+
+}
+.accordion {
+   border: 0px;
+}
 .hr-line {
     margin: auto;
+    border: 1px solid #dee2e6;
 }
-
 .me-class-style-todo-int {
     display: flex;
     padding: 10px;
