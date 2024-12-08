@@ -77,10 +77,19 @@ h2 {
     border-radius: 6px;
 }
 
+.form-check .form-check-input {
+margin: 8px;
+padding: 8px;
+}
 .me-class-style-round {
     padding: 0px;
-    border: solid 2px;
-    border-radius: 6px;
+    border: 1px solid #B3B1B1;
+    border-radius: 0px 0px 8px 8px;
+}
+.me-class-card-style{
+    border: 1px solid #B3B1B1;
+    margin: 10px;
+    border-radius: 4px;
 }
 
 .hr-line {
