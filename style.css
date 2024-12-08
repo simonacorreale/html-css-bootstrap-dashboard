@@ -2,7 +2,27 @@
 .me-class-align {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 0px 30px 0px;
+}
+
+h1 {
+    line-height: 0px;
+}
+
+h2 {
+    line-height: 0px;
+    margin: 0;
+}
+
+.me-class-title-section {
+    border-radius: 8px 8px 0px 0px;
+    border: 1px solid #B3B1B1;
+    background: #F7F7F7;
+    justify-content: flex;
+    align-items: center;
+    padding: 30px 10px 30px 10px;
+    
 }
 
 /* margin rules */
@@ -50,9 +70,31 @@
 .me-class-table td {
     vertical-align: middle;
 }
+
 .me-class-style-todo {
-    .content
+    padding: 10px;
+    border: solid 2px;
+    border-radius: 6px;
 }
+
+.me-class-style-round {
+    padding: 0px;
+    border: solid 2px;
+    border-radius: 6px;
+}
+
+.hr-line {
+    margin: auto;
+}
+
+.me-class-style-todo-int {
+    display: flex;
+    padding: 10px;
+    /* Bordo a destra */
+    align-items: center;
+
+}
+
 /* Dropdown form */
 /* Divider init */
 .me-class-divider {
@@ -80,9 +122,11 @@
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
 .me-class-form-text {
-    color:  #656565;
+    color: #656565;
 }
+
 .form-text {
     margin-top: .25rem;
     font-size: .875em;
