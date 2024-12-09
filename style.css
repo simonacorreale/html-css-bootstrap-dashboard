@@ -26,8 +26,9 @@ h2 {
 }
 
 .me-mt-8 {
-    margin-top: 16vh;
-    margin-bottom: 50px;
+    margin-top: 20vh;
+    margin-bottom: 10px;
+
 }
 
 /* Books status */
@@ -71,8 +72,9 @@ h2 {
 
 
 .form-check .form-check-input {
-margin: 8px;
-padding: 8px;
+margin: 0px;
+padding: 8px 8px  8px 8px;
+
 }
 
 .me-class-title-section {

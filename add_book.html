@@ -16,45 +16,43 @@
 
 <body>
     <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top " data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img src="./img/duck.png" width="60" height="60"
-                    class="d-inline-block align-top" alt=""> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-primary" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+      <!-- Navbar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top " data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img src="./img/duck.png" width="60" height="60"
+          class="d-inline-block align-top" alt=""> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Catalogo libri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Anagrafica utente</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Storico prestiti</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
     <!-- Navbar-->
     <!-- Main-->
     <main class="me-mt-8">
         <div class="container mt-5">
-            <h1>Nuovo Libro</h1>
+            <div class="mb-5"> <h1>Nuovo Libro</h1></div>
+           
             <form action="./index.html" method="get">
                 <div class="row mb-3">
                     <!-- Field 1 -->
@@ -109,11 +107,11 @@
                     <textarea class="form-control" id="note" rows="3" placeholder="Inserisci eventuali note sul libro"
                         required></textarea>
                 </div>
-                <div class="form-check mb-3">
+                <div class="form-check mb-3 text">
                     <!-- Field 8 -->
-                    <input class="form-check-input" type="checkbox" id="disponibileDigitale" required>
-                    <label class="form-check-label" for="disponibileDigitale">
-                        Disponibile anche in digitale
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label align-middle" for="flexCheckDefault">
+                      Default checkbox
                     </label>
                 </div>
                 <!-- Action -->
